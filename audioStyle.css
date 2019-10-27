@@ -1,0 +1,48 @@
+body{
+	margin:0px;
+	background-image: url(images/yup.jpg);
+	background-size: cover;
+}
+
+li,p{
+	list-style: none;
+	display: block;
+	line-height: 20px;
+}
+
+
+h2{
+	color: #AA4139;
+	border: 5px solid rgb(225, 176, 170);
+	cursor: pointer ;
+	margin-top: 10px;
+}
+
+h3{
+	cursor: pointer;
+	font-style: italic;
+	}
+	
+
+img{
+	float: left;
+	margin: 10px;
+	transition:all 1s;
+	border-radius: 60%;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+a{
+	padding:10px 15px;
+	color:black;
+	border-radius:5px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+	background-color:purple;
+}
